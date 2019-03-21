@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#nav {
+    margin: 30px;
+}
+#nav li {
+    list-style: none;
+    float: left;
+    width: 140px;
+}
+#nav a {
+            text-decoration: none;
+            font-size: 14px;
+            font-family: arial;
+            background-color: #807e7f;
+            display: block;
+            margin: 3px;
+            padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+        }
+#nav a:hover {
+    background-color: darkgrey;
+    color: black;
+}
+
+#nav li ul {
+     display: none;
+ }
+#nav li ul li a {
+    background-color: darkgrey;
+}
+#nav li ul li a:hover {
+    background-color: #807e7f;
+}
